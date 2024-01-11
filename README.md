@@ -1,5 +1,3 @@
-Certainly! Below is a README.md template that you can copy and use for your `gold_silver_nepal` gem on GitHub:
-
 ```markdown
 # GoldSilverNepal
 
@@ -26,14 +24,9 @@ To fetch today's gold and silver rates, you can use the following code:
 ```ruby
 require 'gold_silver_nepal'
 
-# Fetch today's gold rate
-gold_rate = GoldSilverNepal.gold_rate
+prices = GoldSilverNepal::Scraper.scrape
+puts prices
 
-# Fetch today's silver rate
-silver_rate = GoldSilverNepal.silver_rate
-
-puts "Today's Gold Rate: #{gold_rate} NPR"
-puts "Today's Silver Rate: #{silver_rate} NPR"
 ```
 
 ## Development
