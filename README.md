@@ -1,20 +1,24 @@
-```markdown
-# GoldSilverNepal
 
-Welcome to the GoldSilverNepal gem! This gem allows you to easily fetch today's gold and silver rates in Nepal. Stay up-to-date with the latest market prices for precious metals.
+## GoldSilverNepal
+```
+    Welcome to the GoldSilverNepal gem! This gem allows you to easily fetch today's gold and silver rates in Nepal. Stay up-to-date with the latest market prices for precious metals.
 
+```
 ## Installation
 
 Add this gem to your application's Gemfile by executing:
 
 ```bash
 $ bundle add gold_silver_nepal
+
 ```
+#
 
 If Bundler is not being used to manage dependencies, you can install the gem by executing:
 
 ```bash
 $ gem install gold_silver_nepal
+
 ```
 
 ## Usage
@@ -46,4 +50,3 @@ The gem is available as open source under the terms of the MIT License.
 ## Code of Conduct
 
 Everyone interacting in the GoldSilverNepal project's codebases, issue trackers, chat rooms, and mailing lists is expected to follow the [code of conduct](CODE_OF_CONDUCT.md).
-```
